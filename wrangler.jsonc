@@ -1,0 +1,22 @@
+{
+  "name": "baseball-workers-svelte-drizzle",
+  "main": ".svelte-kit/cloudflare/_worker.js",
+  "compatibility_date": "2025-03-07",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": { "enabled": true, "head_sampling_rate": 1 },
+  "assets": { "directory": "static" },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "baseball_team_db",
+      "database_id": "1bd0a206-77b6-42e2-8abc-d927e0c84380"
+    }
+  ],
+  "vars": {
+    "APP_NAME": "Baseball Team"
+  },
+  "routes": [],
+  "deployments": {
+    "bindings": {}
+  }
+}
